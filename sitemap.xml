@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+
+<url>
+  <loc>http://www.ih.cl/</loc>
+  <lastmod>2020-08-18T17:04:56+00:00</lastmod>
+</url>
+
+-<url>
+<loc>http://www.ih.cl/index.html</loc><lastmod>2020-01-28T13:55:04+00:00</lastmod><priority>0.80</priority>
+</url>
+
+
+-<url>
+<loc>http://www.ih.cl/quienes_somos.html</loc><lastmod>2019-02-27T19:47:32+00:00</lastmod><priority>0.80</priority>
+</url>
+
+-<url>
+<loc>http://www.ih.cl/servicios.html</loc><lastmod>2019-02-27T19:47:30+00:00</lastmod><priority>0.80</priority>
+</url>
+
+
+
+-<url>
+<loc>http://www.ih.cl/portafolio.html</loc><lastmod>2019-02-27T19:47:28+00:00</lastmod><priority>0.80</priority>
+</url>
+
+
+-<url>
+<loc>http://www.ih.cl/contacto.html</loc><lastmod>2019-02-27T19:45:54+00:00</lastmod><priority>0.80</priority>
+</url>
+
+</urlset>
+
+
+
+
+
+
+
+
+
+
+

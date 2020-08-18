@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Informática Hernandez</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="servicios informáticos integrales"content="portafolio web,instalacion, desarrollo web, asesoria , memorias,redes lan,soporte informatica">
+	<meta name="keywords" content="asesorias , desarrollo, servicios informaticos de una empresa,soporte informatica profesional">
+	<link  rel="icon"   href="img/logo.png" type="img/png" />
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css">	
+</head>
+
+<body>
+	<header>
+		
+	</header>
+	<!-- menu  web  -->
+	<div >
+		<a href="index.html" ><img class="ico" src="img/logo.png" alt=""></a>
+		<nav class="navbar navbar-expand-sm " id="bg-lighter">
+			<ul class="navbar-nav">
+				<li><a class="nav-link" href="index.html">Home</a></li>	
+				<li><a class="nav-link" href="quienes_somos.html">Conocenos</a></li>	
+				<li><a class="nav-link" href="servicios.html">Servicios</a></li>
+				<li><a class="nav-link" href="portafolio.html">Portafolio</a></li>
+				<li><a class="nav-link" href="Contacto.html">Contacto</a></li> 
+			 </ul>
+		</nav>
+	</div>	
+	<!--menu web   -->
+
+<!-- Inicio de la seccion carrusel -->
+<section id="galeria">
+
+			<div id="carrusel" class="carousel slide" data-ride="carousel">
+				<!-- carousel-indicators  indicadores del carrusel boton las flechas-->
+			  <ol class="carousel-indicators">
+			  	<!-- El data-slide-to atributo especifica a qué diapositiva ir, al hacer clic en el punto específico -->
+			    <li  data-target="#carrusel" data-slide-to="0" class="active"></li>
+			    <!-- La .activeclase debe agregarse a una de las diapositivas. De lo contrario, el carrusel no será visible. -->
+			    <li data-target="#carrusel" data-slide-to="1"></li>
+			    <li data-target="#carrusel" data-slide-to="2"></li>
+			  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img class="d-block w-100" src="img/foto.jpg" alt="First slide">
+				      <!-- w-100  ancho del 100%    d-block en bloque-->
+				      <!--clase carousel caption agrega texto a las imagenes  -->
+				        <div class="carousel-caption d-none d-md-block">
+				        	<!-- d-md-block en bloque. Los ocultamos inicialmente con .d-noney los traemos de vuelta en dispositivos de tamaño mediano con .d-md-block.-->
+				    	<h5 class="texto">Desarrollo Web</h5>
+				    	<p>Dominio y Hosting Incluido</p>
+				  		</div>
+				  <!--clase carousel caption agrega texto a las imagenes  -->
+				    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="img/foto3.jpg" alt="Second slide">
+					      <div class="carousel-caption d-none d-md-block">
+					    	<h5 class="texto">Recuperación de Datos</h5>
+					    	<p>Discos duros, Teléfonos, Pendrives.  </p>
+					  		</div>
+					    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100" src="img/quienessomos_2.jpg" alt="Third slide">
+				      <div class="carousel-caption d-none d-md-block">
+				    	<h5 class="texto">Redes de Datos</h5>
+				    	<p>Instalación y  Configuración de Equipos de Redes </p>
+				  		</div>s
+				    </div>
+			  </div>
+				   <a class="carousel-control-prev" href="#carrusel" role="button" data-slide="prev">
+				   	<!-- paara que los control funcionen se debe referenciar hacia el id del div contenedor href=id -->
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Anterior</span>
+				   </a>
+				   <a class="carousel-control-next" href="#carrusel" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    	<span class="sr-only">Siguiente</span>
+			  		</a>
+			</div>
+
+</section>
+<!-- termino e la seccion carrusel -->
+
+<!-- comienzo de seccion servicios -->
+<section id="borde">
+	<br>
+
+
+	    <div class="row " >
+
+	    	<!-- las grillas siempren deben sumar 12 con las columnas -->
+	       <div class="col-sm-12 titulos_2 "  >Servicios</div>
+	    </div>
+    		<br>
+
+	<!-- grilla boostrap----- class="shadow p-4 mb-4 bg-white" para sombras -->
+	    <div class="row text-center " >
+	    	<!-- text-center -> clase boostrap para centrar-->
+		      <div class="col-sm-4 " >
+		      	<div class="">
+							<h3 class="titulos_3">Web administrativas</h3>
+							<img class="img-Serv" src="img/disenoweb.svg" alt="">
+							<p class="texto">Tu podras adminitrar tus paginas webs, cambiar el diseño , el color y muchos otros aspectos, ya no dependeras de alguien para mantenerla..  ..</p>
+				</div>
+		      </div>
+
+		      <div class="col-sm-4" >
+							<h3 class="titulos_3">Asesorías TI</h3>
+							<img class="img-Serv" src="img/asesorias.svg" alt="">
+							<p class="texto">Si tienes alguna necesidad para alguna problematica con TI , nosotros disponemos de conocimiento y herramientas para ayudarte.. </p>				
+		</div>
+
+      
+      <div class="col-sm-4" >
+			<h3 class="titulos_3">Soporte Informático</h3>
+					<img class="img-Serv" src="img/soporte.svg" alt="">
+					<p class="texto">Tu equipo presenta problemas, nosotros nos ponemos a tu dispocicion para dejarlo  funcional de nuevo  ...</p>
+
+      </div>
+
+      <!-- grilla boostrap -->
+    </div>
+    <br>
+			<!-- grilla boostrap -->
+		    <div class="row text-center">
+			      <div class="col-sm-4" >
+					<h3 class="titulos_3">Recuperación de Datos</h3>
+						<img class="img-Serv" src="img/reucuperardiscoduro.png" alt="">
+						<p class="texto">Perdiste un Información de un disco duro interno o externo, nosotros podemos obtener informacion, contactanos...</p>
+			      </div>
+
+			      <div class="col-sm-4" >
+					<h3 class="titulos_3">Instalación de Redes</h3>
+						<img class="img-Serv" src="img/redes.png" alt="">
+						<p class="texto">La red de tu Empresa u oficinas quedo pequeña, nosotro tenemos varios tipos de tecnologia que podran ayudarte .. </p>
+			      </div>
+		    
+
+			      	<div class="col-sm-4" >
+			      		<h3 class="titulos_3">Instalación multimedia</h3>
+						<img class="img-Serv" src="img/projector.svg" alt="">
+						<p class="texto">Deseas tener presentaciones profesionales a un costo accesible, contactanos y te asesoramos en tu proyecto...</p>
+			      	</div>
+		      
+		    </div>
+		   
+    		<!-- grilla boostrap -->
+    	<br>
+
+</section>
+<!-- termino de seccion servicios -->
+
+
+
+
+
+
+<!-- comienzo footer -->
+<footer class="page-footer font-small " id="bg-lighter_Foo">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <div class="col-md-5 mt-md-1 mt-3 ">
+        <a href="index.html" ><img class="ico_Foo" src="img/logo.png" alt=""></a>
+      </div>
+      <hr class="clearfix w-100 d-md-none pb-3">
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h5 class="text-uppercase texto_Foo">Informática Hernández</h5>
+        <ul class="list-unstyled">
+          
+          <li>
+            Telefono : 123456789
+          </li>
+          <li>
+             <a href="contacto.html" >Correo : contacto@ie.cl</a>
+          </li>
+          <li>
+            Melipilla, Chile
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-md-3 mb-md-0 mb-3 " >
+        <h5 class="text-uppercase texto_Foo" >Servicios</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="contato.html"  >Respaldo de Datos</a>
+          </li>
+          <li>
+            <a href="contato.html" >Desarrollo Web</a>
+          </li>
+          <li>
+            <a href="contato.html" >Instalación de Redes</a>
+          </li>
+          <li>
+            <a href="contato.html" >Instalación Multimedia</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="www.Informaticahernandez.cl"> www.Informaticahernandez.cl</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Termino footer -->
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
