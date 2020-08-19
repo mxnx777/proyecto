@@ -71,4 +71,10 @@ nav li a:hover { background: #394C91; color: white; }
 .boton { height: 60px; padding: 20px; background-color: blue; color: white; display: inline-block; text-decoration: none; }
 
 .boton--derecha { position: absolute; right: 20px; bottom: -25px; }
+
+.mbr-section { position: relative; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; background-color: black; padding-top: 240px; padding-bottom: 240px; color: white; font-family: -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; }
+
+.mbr-table-md-up { width: 50%; }
+
+.img-servicios { width: 85%; height: 85%; }
 /*# sourceMappingURL=estilos.css.map */

@@ -282,6 +282,26 @@
     //     text-shadow: 0px 1px 3px gray, 1px 0px 3px gray; 
     // }
 
-   
+   .mbr-section{
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    padding-top: 240px;
+    padding-bottom: 240px;
+    color: $color_nav_ov;
+    font-family: $font_principal;
+    
+   }
      
+
+   .mbr-table-md-up{
+       width: 50%;
+    }
+    
+    .img-servicios{
+        width: 85%;
+        height: 85%;
+    }
     
