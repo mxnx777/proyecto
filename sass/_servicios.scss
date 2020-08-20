@@ -14,7 +14,7 @@
 }
 
 
-#galeria img{
+#galeria_img{
 	
     /*margin-left: 2rem;
     width: 95%;*/
@@ -300,60 +300,17 @@
        width: 50%;
     }
     
-    .img-servicios{
-        width: 85%;
-        height: 85%;
+    #img-servicios{
+        width: 50%;
+        height: 77%;
     }
 
-
+    .mbr-tabla-izq{
+    text-align: right;
+        float: right;
+    }
     // animacion de texto 
-    .animated {
-        -webkit-animation-duration: 1s;
-        animation-duration: 1s;
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both;
-      }
-      
-    .fadeInUp {
-        -webkit-animation-name: fadeInUp;
-        animation-name: fadeIn
-        Up;
-      }
+// en animated.scss
 
-      .service {  
-        // padding: 45px 20px 20px 20px;
-        // border: 1px solid #ececec;
-        // border-radius: 4px;
-        text-align: center;
-        transition: 5s;
-        position: relative;
-        margin: 0 auto;  
-        // margin-top: 30px;
-        // max-width: 320px;
-      }
-      
-    // animacion de txto
-
-      @keyframes fadeInUp {
-        0% {
-          opacity: 0;
-          -webkit-transform: translateY(90x);
-          -ms-transform: translateY(90px);
-          transform: translateY(90px);
-        }
-      
-        100% {
-            
-          opacity: 1;
-          -webkit-transform: translateY(0);
-          -ms-transform: translateY(0);
-          transform: translateY(0);
-        }
-      }
-      
-      .fadeInUp {
-        -webkit-animation-name: fadeInUp;
-        animation-name: fadeInUp;
-      }
 // animacion de texto 
 
