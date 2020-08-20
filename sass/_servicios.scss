@@ -332,17 +332,18 @@
         // max-width: 320px;
       }
       
-    //   class="service animated fadeInUp " data-animation="fadeInUp" data-delay="4500"
+    // animacion de txto
 
       @keyframes fadeInUp {
         0% {
           opacity: 0;
-          -webkit-transform: translateY(30x);
-          -ms-transform: translateY(30px);
-          transform: translateY(30px);
+          -webkit-transform: translateY(90x);
+          -ms-transform: translateY(90px);
+          transform: translateY(90px);
         }
       
         100% {
+            
           opacity: 1;
           -webkit-transform: translateY(0);
           -ms-transform: translateY(0);

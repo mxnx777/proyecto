@@ -85,15 +85,15 @@ nav li a:hover { background: #394C91; color: white; }
 .service { text-align: center; -webkit-transition: 5s; transition: 5s; position: relative; margin: 0 auto; }
 
 @-webkit-keyframes fadeInUp { 0% { opacity: 0;
-    -webkit-transform: translateY(30x);
-    transform: translateY(30px); }
+    -webkit-transform: translateY(90x);
+    transform: translateY(90px); }
   100% { opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0); } }
 
 @keyframes fadeInUp { 0% { opacity: 0;
-    -webkit-transform: translateY(30x);
-    transform: translateY(30px); }
+    -webkit-transform: translateY(90x);
+    transform: translateY(90px); }
   100% { opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0); } }
