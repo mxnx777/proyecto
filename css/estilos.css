@@ -77,4 +77,26 @@ nav li a:hover { background: #394C91; color: white; }
 .mbr-table-md-up { width: 50%; }
 
 .img-servicios { width: 85%; height: 85%; }
+
+.animated { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+
+.fadeInUp { -webkit-animation-name: fadeInUp; animation-name: fadeIn Up; }
+
+.service { text-align: center; -webkit-transition: 5s; transition: 5s; position: relative; margin: 0 auto; }
+
+@-webkit-keyframes fadeInUp { 0% { opacity: 0;
+    -webkit-transform: translateY(30x);
+    transform: translateY(30px); }
+  100% { opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes fadeInUp { 0% { opacity: 0;
+    -webkit-transform: translateY(30x);
+    transform: translateY(30px); }
+  100% { opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+.fadeInUp { -webkit-animation-name: fadeInUp; animation-name: fadeInUp; }
 /*# sourceMappingURL=estilos.css.map */
