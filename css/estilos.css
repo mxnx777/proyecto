@@ -74,6 +74,8 @@ nav li a:hover { background: #394C91; color: white; }
 
 .mbr-section { position: relative; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; background-color: black; padding-top: 240px; padding-bottom: 240px; color: white; font-family: -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; }
 
+.mbr-section2 { position: relative; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; background-color: #252c8a; padding-top: 240px; padding-bottom: 240px; color: white; font-family: -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; }
+
 .mbr-table-md-up { width: 50%; }
 
 #img-servicios { width: 50%; height: 77%; }
@@ -88,7 +90,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
-.animated { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+.animated { -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
 
 .animated.hinge { -webkit-animation-duration: 2s; animation-duration: 2s; }
 

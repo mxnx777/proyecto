@@ -11,6 +11,8 @@
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css">	
+	<link rel="stylesheet" href="js/wow.js">
+	<link rel="stylesheet" href="js/wow.min.js">
 </head>
 
 <body>
@@ -97,7 +99,7 @@
 			<div class="service animated fadeInUp " data-animation="fadeInUp" data-delay="4500">
 				<img id="img-servicios" src="img/responsive.png" alt="web responsive">
 				<div class="mbr-tabla-izq">
-				<h3><strong> Web administrativas</strong></h3>
+				<h3 class="wow animated fadeIn" data-wow-duration="2s" data-wow-delay="9s" data-wow-offset="150"  data-wow-iteration="20"><strong> Web administrativas</strong></h3>
 				<p >Tu podras adminitrar tus paginas webs, cambiar el diseño , el color y muchos otros aspectos,
 				 ya no dependeras de alguien para mantenerla..  ..</p>
 				</div>
@@ -105,8 +107,28 @@
 			
 		</div>
 	</div>
+	<section class="mbr-section2 data-wow-offset">
+		<div class="container">
+			<div class="row">
+				<div class="service animated fadeInUp " data-animation="fadeInUp" data-delay="1500">
+					<img id="img-servicios" src="img/responsive.png" alt="web responsive">
+					<div class="mbr-tabla-izq">
+					<h3 class="wow animated fadeIn" data-wow-duration="2s" data-wow-delay="9s" data-wow-offset="150"  data-wow-iteration="20"><strong> Web administrativas</strong></h3>
+					<p >Tu podras adminitrar tus paginas webs, cambiar el diseño , el color y muchos otros aspectos,
+					 ya no dependeras de alguien para mantenerla..  ..</p>
+					 <div data-wow-delay="0.5s" class="span3 wow rollIn" style="visibility: visible; animation-delay: 0.5s; animation-name: rollIn;">
+						<p class="circle bg-red">no jquery?!</p>
+					  </div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
               
 <!-- prueba de animacion en texto -->
+
+	
+
 </section>
 
 
@@ -166,7 +188,7 @@
 </footer>
 <!-- Termino footer -->
 
-
+	<script>new WOW().init();</script>
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
