@@ -288,8 +288,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-    padding-top: 240px;
-    padding-bottom: 240px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     color: $color_nav_ov;
     font-family:  'Homemade Apple', 'cursive';
     padding-left: 10%;
@@ -350,6 +350,18 @@
     .mbr-tabla-izq{
     text-align: right;
     float: right;
+    }
+
+    .centrar_B{
+        text-align-last: right;
+       margin-right: 55%;
+    //    padding-bottom: 20%;
+    }
+
+    .centrar_C{
+        text-align-last: left;
+        margin-left: 42%;
+    //    margin-top: 30%;
     }
     // animacion de texto 
 // en animated.scss
