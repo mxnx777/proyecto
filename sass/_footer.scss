@@ -17,3 +17,20 @@
    background-color: #EEF1F4 !important;
 
 }
+#bg-lighter_Foo2 {
+	padding-top: 3rem;
+   background-color: #EEF1F4 !important;
+
+}
+.ico_Foo2{
+	height: 170px;
+	width: 200px;
+	float: left;
+	// margin-top: 5px;
+	margin-left: 3rem;
+	padding-right: 10px;
+	/*para colocar una imagen encima de otra 
+	debe tener un valor absolute*/
+	/*position: absolute;*/
+	z-index: 1;
+}
