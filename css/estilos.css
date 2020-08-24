@@ -1,6 +1,6 @@
 * { margin: 0px; padding: 0px; }
 
-@media (max-width: 600px) { .Servicios_T { /*background-color: red;*/ width: 80%; margin-left: 4rem; } }
+@media (max-width: 600px) { .Servicios_T { background-color: red; width: 80%; margin-left: 4rem; } }
 
 @media (max-width: 600px) { .ico_T { height: 40px; width: 50px; float: left; margin-top: 7.5px; margin-left: 0.7rem; padding-right: 5px; position: absolute; z-index: 1; } }
 
@@ -24,17 +24,17 @@ nav li a:hover { background: #394C91; color: white; }
 
 #galeria_img { /*margin-left: 2rem; width: 95%;*/ width: 100%; height: 480px; }
 
-.titulos_2 { font-family: "Tenali Ramakrishna", sans-serif, "Titillium Web"; /*font-family: Roboto;*/ /*color: #394C91;*/ text-align: center; font-weight: bold; padding-top: 20px; padding-bottom: 20px; font-size: 2rem; }
+.titulos_2 { font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; /*font-family: Roboto;*/ /*color: #394C91;*/ text-align: center; font-weight: bold; padding-top: 20px; padding-bottom: 20px; font-size: 2rem; }
 
 .img-Serv { width: 100px; height: 100px; }
 
 .img-Serv:hover { border-radius: 50%; -webkit-border-radius: 50%; box-shadow: 0px 0px 15px 15px lightblue; -webkit-box-shadow: 0px 0px 15px 15px lightblue; transform: rotate(360deg); -webkit-transform: rotate(360deg); }
 
-.texto { /*font-family: 'Permanent Marker', lighter;*/ text-align: center; font-family: "Tenali Ramakrishna", sans-serif, "Titillium Web"; font-weight: bold; font-size: 1rem; font-weight: 600; line-height: 1.5; }
+.texto { /*font-family: 'Permanent Marker', lighter;*/ text-align: center; font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; font-weight: bold; font-size: 1rem; font-weight: 600; line-height: 1.5; }
 
-.texto_Foo { text-align: left; font-family: "Tenali Ramakrishna", sans-serif, "Titillium Web"; font-weight: bold; font-size: 1rem; font-weight: 600; line-height: 1.5; }
+.texto_Foo { text-align: left; font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; font-weight: bold; font-size: 1rem; font-weight: 600; line-height: 1.5; }
 
-.titulos_3 { font-family: "Tenali Ramakrishna", sans-serif, "Titillium Web"; /*font-family: Roboto;*/ text-align: center; font-weight: bold; padding-top: 20px; padding-bottom: 20px; font-size: 1.5rem; }
+.titulos_3 { font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; /*font-family: Roboto;*/ text-align: center; font-weight: bold; padding-top: 20px; padding-bottom: 20px; font-size: 1.5rem; }
 
 #borde { /*border-style: groove;*/ /*text-decoration:none;*/ /*list-style-type: none;*/ /*text-shadow: 1px 1px 2px #3F22D2;*/ -webkit-text-decoration-line: none; text-decoration-line: none; max-width: 100%; margin-left: 0.5rem; margin-top: 0.5rem; }
 
@@ -42,7 +42,7 @@ nav li a:hover { background: #394C91; color: white; }
 
 #bordeQsomos { -webkit-text-decoration-line: none; text-decoration-line: none; max-width: 100%; margin: 5rem 5rem 5rem 5rem; padding: 2rem 2rem 2rem 2rem; text-align: center; /*borde redondeado css*/ /*border-radius: 90px 90px 90px 90px; -moz-border-radius: 90px 90px 90px 90px; -webkit-border-radius: 90px 90px 90px 90px; border: 1px black #cccc;*/ /*borde redondeado css*/ /*sombra en etiqueta */ -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); /*sombra en etiqueta */ }
 
-.texto_Qsomos { text-align: center; font-family: "Tenali Ramakrishna", sans-serif, "Titillium Web"; font-weight: bold; font-size: 2rem; font-weight: 600; line-height: 2rem; letter-spacing: 2px; padding-top: 15px; padding-bottom: 10px; }
+.texto_Qsomos { text-align: center; font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; font-weight: bold; font-size: 2rem; font-weight: 600; line-height: 2rem; letter-spacing: 2px; padding-top: 15px; padding-bottom: 10px; }
 
 #qSomos_img { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; padding: 1rem 0rem 1rem rem; max-width: 70%; max-height: 90%; }
 
@@ -54,9 +54,9 @@ nav li a:hover { background: #394C91; color: white; }
 
 .contenedor { position: relative; color: white; }
 
-.texto-encima { /*display: inline-block;*/ font-family: "Tenali Ramakrishna", sans-serif, "Titillium Web"; margin-top: 2rem; text-align: left; position: absolute; top: 10px; left: 1%; font-size: 12px; -webkit-text-decoration-style: bold; text-decoration-style: bold; font-weight: 600; line-height: 1.5; }
+.texto-encima { /*display: inline-block;*/ font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; margin-top: 2rem; text-align: left; position: absolute; top: 10px; left: 1%; font-size: 12px; -webkit-text-decoration-style: bold; text-decoration-style: bold; font-weight: 600; line-height: 1.5; }
 
-.texto-encima2 { position: absolute; margin-left: 40px; text-align: left; font-family: "Tenali Ramakrishna", sans-serif, "Titillium Web"; margin-top: 2rem; top: 10px; font-size: 15px; -webkit-text-decoration-style: bold; text-decoration-style: bold; }
+.texto-encima2 { position: absolute; margin-left: 40px; text-align: left; font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; margin-top: 2rem; top: 10px; font-size: 15px; -webkit-text-decoration-style: bold; text-decoration-style: bold; }
 
 .bordeDos { border-style: groove; position: absolute; color: white; max-width: 95%; }
 
@@ -64,19 +64,19 @@ nav li a:hover { background: #394C91; color: white; }
 
 .tarjeta__img { width: 300px; height: 180px; margin-right: 30px; }
 
-.tarjeta__titulo { font-family: "Tenali Ramakrishna", sans-serif, "Titillium Web"; font-size: 1.5rem; margin-bottom: 20px; color: black; }
+.tarjeta__titulo { font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; font-size: 1.5rem; margin-bottom: 20px; color: black; }
 
-.tarjeta__parrafo { font-family: "Tenali Ramakrishna", sans-serif, "Titillium Web"; line-height: 28px; font-size: 1rem; color: black; }
+.tarjeta__parrafo { font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; line-height: 28px; font-size: 1rem; color: black; }
 
 .boton { height: 60px; padding: 20px; background-color: blue; color: white; display: inline-block; text-decoration: none; }
 
 .boton--derecha { position: absolute; right: 20px; bottom: -25px; }
 
-.mbr-section { position: relative; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; background-color: black; padding-top: 150px; padding-bottom: 150px; color: white; font-family: "Tenali Ramakrishna", sans-serif, "Titillium Web"; padding-left: 10%; }
+.mbr-section { position: relative; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; background-color: black; padding-top: 150px; padding-bottom: 150px; color: white; font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; padding-left: 10%; }
 
-.mbr-section2 { position: relative; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; background-color: white; padding-top: 150px; padding-bottom: 150px; color: black; font-family: "Tenali Ramakrishna", sans-serif, "Titillium Web"; }
+.mbr-section2 { position: relative; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; background-color: white; padding-top: 150px; padding-bottom: 150px; color: black; font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; }
 
-.mbr-section3 { position: relative; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; background-color: whitesmoke; padding-top: 150px; padding-bottom: 150px; padding-left: 10%; color: black; font-family: "Tenali Ramakrishna", sans-serif, "Titillium Web"; text-align: justify; }
+.mbr-section3 { position: relative; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; background-color: whitesmoke; padding-top: 150px; padding-bottom: 150px; padding-left: 10%; color: black; font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; text-align: justify; }
 
 .mbr-table-md-up { width: 50%; }
 
