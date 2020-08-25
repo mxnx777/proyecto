@@ -1327,4 +1327,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(100%) rotate(120deg); } }
 
 .rollOut { -webkit-animation-name: rollOut; animation-name: rollOut; }
+
+.avia-slide-wrap { position: relative; display: block; }
+
+.img_contact { width: 100%; }
+
+.contenedorC { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; margin-bottom: 5px; background-color: red; }
+
+.elementoC { width: 40%; border-style: groove; }
 /*# sourceMappingURL=estilos.css.map */
