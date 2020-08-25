@@ -30,7 +30,9 @@ nav li a:hover { background: #394C91; color: white; }
 
 .img-Serv:hover { border-radius: 50%; -webkit-border-radius: 50%; box-shadow: 0px 0px 15px 15px lightblue; -webkit-box-shadow: 0px 0px 15px 15px lightblue; transform: rotate(360deg); -webkit-transform: rotate(360deg); }
 
-.texto { /*font-family: 'Permanent Marker', lighter;*/ text-align: center; font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; font-weight: bold; font-size: 1rem; font-weight: 600; line-height: 1.5; }
+.texto { /*font-family: 'Permanent Marker', lighter;*/ text-align: justify; font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; font-weight: bold; font-size: 1rem; font-weight: 600; line-height: 1.5; }
+
+.grilla_Espaciado { margin: 10px; padding: 10px 30px 0px 30px; }
 
 .texto_Foo { text-align: left; font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; font-weight: bold; font-size: 1rem; font-weight: 600; line-height: 1.5; }
 
@@ -72,7 +74,7 @@ nav li a:hover { background: #394C91; color: white; }
 
 .boton--derecha { position: absolute; right: 20px; bottom: -25px; }
 
-.mbr-section { position: relative; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; background-color: black; padding-top: 150px; padding-bottom: 150px; color: white; font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; padding-left: 10%; }
+.mbr-section { position: relative; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; background-color: black; padding-top: 150px; padding-bottom: 150px; color: white; font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; }
 
 .mbr-section2 { position: relative; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; background-color: white; padding-top: 150px; padding-bottom: 150px; color: black; font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; }
 
@@ -88,9 +90,11 @@ nav li a:hover { background: #394C91; color: white; }
 
 .mbr-tabla-izq { text-align: right; float: right; }
 
-.centrar_B { text-align-last: right; margin-right: 55%; }
+.centrar_B { text-align-last: right; margin-right: 55%; padding-bottom: 20%; }
 
-.centrar_C { text-align-last: left; margin-left: 42%; }
+.centrar_C { text-align-last: left; }
+
+#centrar_A { text-align-last: left; padding-bottom: 30px; }
 
 /*!
 Animate.css - http://daneden.me/animate
