@@ -1333,4 +1333,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .no-gutters { margin-right: 0; margin-left: 0; }
 
 .no-gutters > .col, .no-gutters > [class*="col-"] { padding-right: 0; padding-left: 0; }
+
+.alinearC { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 /*# sourceMappingURL=estilos.css.map */
