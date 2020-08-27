@@ -30,7 +30,7 @@ nav li a:hover { background: #394C91; color: white; }
 
 .img-Serv:hover { border-radius: 50%; -webkit-border-radius: 50%; box-shadow: 0px 0px 15px 15px lightblue; -webkit-box-shadow: 0px 0px 15px 15px lightblue; transform: rotate(360deg); -webkit-transform: rotate(360deg); }
 
-.texto { /*font-family: 'Permanent Marker', lighter;*/ text-align: justify; font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; font-weight: bold; font-size: 1rem; font-weight: 600; line-height: 1.5; }
+.texto { text-align: justify; font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; font-weight: bold; font-size: 1rem; font-weight: 600; line-height: 1.5; }
 
 .grilla_Espaciado { margin: 10px; padding: 10px 30px 0px 30px; }
 
@@ -1329,10 +1329,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .rollOut { -webkit-animation-name: rollOut; animation-name: rollOut; }
 
 .centro { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
-
-.no-gutters { margin-right: 0; margin-left: 0; }
-
-.no-gutters > .col, .no-gutters > [class*="col-"] { padding-right: 0; padding-left: 0; }
 
 .alinearC { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
