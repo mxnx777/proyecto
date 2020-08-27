@@ -1328,11 +1328,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .rollOut { -webkit-animation-name: rollOut; animation-name: rollOut; }
 
-.izquierda { border-style: groove; }
+.centro { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
 .no-gutters { margin-right: 0; margin-left: 0; }
 
 .no-gutters > .col, .no-gutters > [class*="col-"] { padding-right: 0; padding-left: 0; }
 
 .alinearC { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.special-heading-inner-border { color: #017cba; display: block; width: 90%; margin-left: 8px; border-top-style: solid; border-top-width: 1px; position: relative; top: 50%; opacity: 0.15; filter: alpha(opacity=15); }
+
+.cont-parr { font-weight: bold; }
+
+.tit-cont { font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; color: #017cba; }
+
+.centrar__contacto { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; padding-top: 4%; }
+
+.centrar { padding-right: 15%; }
+
+#centro-boton { padding-right: 3%; margin-right: 50%; }
 /*# sourceMappingURL=estilos.css.map */

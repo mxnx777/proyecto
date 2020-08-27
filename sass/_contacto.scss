@@ -1,9 +1,8 @@
 
 
-.izquierda{
-    
-    border-style: groove;
-   
+.centro{
+    // border-style: groove;
+    align-items: center;
 }
 
 .no-gutters {
@@ -22,3 +21,41 @@
       align-items:    center;
       
   }
+
+  .special-heading-inner-border{
+    
+    color:#017cba;
+    display: block;
+    width:90%;
+    margin-left:8px;
+    border-top-style: solid;
+    border-top-width:1px;
+    position: relative;
+    top:50%;
+    opacity: 0.15;
+    filter:alpha(opacity=15);
+    }
+   
+    .cont-parr{
+        font-weight: bold;
+        
+    }
+    .tit-cont{
+       font-family: $font_principal;
+       color:#017cba;
+    }
+
+    .centrar__contacto{
+        display: flex;
+        justify-content:space-evenly;
+        padding-top: 4%;
+    }
+
+     .centrar{
+        padding-right: 15%;
+    }
+
+    #centro-boton{
+        padding-right: 3%;
+        margin-right: 50%;
+    }
