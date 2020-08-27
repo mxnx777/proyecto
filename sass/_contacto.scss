@@ -1,24 +1,21 @@
-.avia-slide-wrap{
-    position: relative;
-    display: block;
-    }
 
 
+
+
+.izquierda{
     
-.img_contact{
-    width: 100%;
-}    
-
-
-.contenedorC{
-  
-    display: inline-flex; 
-    margin-bottom: 5px; 
-    background-color: red;
-    
-
-}
-.elementoC{
-    width:40%;
     border-style: groove;
+   
 }
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+      
+    }
+  }

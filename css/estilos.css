@@ -8,7 +8,7 @@
 
 .ico_Foo { height: 170px; width: 200px; float: left; margin-top: 5px; margin-left: 3rem; padding-right: 10px; /*para colocar una imagen encima de otra  debe tener un valor absolute*/ /*position: absolute;*/ z-index: 1; }
 
-#bg-lighter_Foo { padding-top: 3rem; background-color: #EEF1F4 !important; }
+#bg-lighter_Foo { padding-top: 3rem; background-color: #EEF1F4 !important; bottom: 0; width: 100%; }
 
 nav a { /* limpiar la decoracion de los a ref.*/ text-decoration: none; color: white; }
 
@@ -94,7 +94,7 @@ nav li a:hover { background: #394C91; color: white; }
 
 .centrar_C { text-align-last: left; }
 
-#centrar_A { text-align-last: left; padding-bottom: 30px; }
+#centrar_A { text-align-last: left; padding: 5px 25px 5px 25px; margin: 9rem 5rem 0rem 15rem; }
 
 /*!
 Animate.css - http://daneden.me/animate
@@ -1328,11 +1328,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .rollOut { -webkit-animation-name: rollOut; animation-name: rollOut; }
 
-.avia-slide-wrap { position: relative; display: block; }
+.izquierda { border-style: groove; }
 
-.img_contact { width: 100%; }
+.no-gutters { margin-right: 0; margin-left: 0; }
 
-.contenedorC { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; margin-bottom: 5px; background-color: red; }
-
-.elementoC { width: 40%; border-style: groove; }
+.no-gutters > .col, .no-gutters > [class*="col-"] { padding-right: 0; padding-left: 0; }
 /*# sourceMappingURL=estilos.css.map */
