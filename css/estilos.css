@@ -1332,7 +1332,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .centro { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.alinearC { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.alinearContacto { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
 .special-heading-inner-border { color: #017cba; display: block; width: 90%; margin-left: 8px; border-top-style: solid; border-top-width: 1px; position: relative; top: 50%; opacity: 0.15; filter: alpha(opacity=15); }
 
