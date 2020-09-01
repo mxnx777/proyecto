@@ -1,8 +1,8 @@
 * { margin: 0px; padding: 0px; }
 
-@media (max-width: 600px) { .Servicios_T { background-color: red; width: 80%; margin-left: 4rem; } }
+@media (max-width: 600px) { .Servicios_T { width: 100%; margin-left: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; } }
 
-@media (max-width: 600px) { .ico_T { height: 40px; width: 50px; float: left; margin-top: 7.5px; margin-left: 0.7rem; padding-right: 5px; position: absolute; z-index: 1; } }
+@media (max-width: 600px) { .ico_T { height: 40px; width: 50px; float: left; margin-top: 7.5px; margin-left: 0.7rem; position: absolute; z-index: 1; } }
 
 @media (max-width: 600px) { .ico_F { height: 140px; width: 170px; margin-top: 5px; margin-right: 6rem; } }
 
