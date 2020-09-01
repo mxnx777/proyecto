@@ -6,7 +6,7 @@
 
 @media (max-width: 600px) { .ico_F { height: 140px; width: 170px; margin-top: 5px; margin-right: 6rem; } }
 
-.ico_Foo { height: 170px; width: 200px; float: left; margin-top: 5px; margin-left: 3rem; padding-right: 10px; /*para colocar una imagen encima de otra  debe tener un valor absolute*/ /*position: absolute;*/ z-index: 1; }
+.ico_Foo { height: 100px; width: 120px; float: left; margin-top: 0,5%; margin-left: 7rem; /*para colocar una imagen encima de otra  debe tener un valor absolute*/ /*position: absolute;*/ z-index: 1; }
 
 #bg-lighter_Foo { padding-top: 3rem; background-color: #EEF1F4 !important; bottom: 0; width: 100%; }
 
