@@ -1356,7 +1356,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .page-top { margin-top: 85px; }
 
-img.zoom { width: 100%; height: 200px; border-radius: 5px; -o-object-fit: cover; object-fit: cover; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; }
+img.zoom { width: 100%; height: 200px; border-radius: 5px; -o-object-fit: cover; object-fit: cover; }
 
 .transition { -webkit-transform: scale(1.2); transform: scale(1.2); }
 
