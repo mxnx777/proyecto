@@ -22,7 +22,7 @@ nav li a:hover { background: #394C91; color: white; }
 
 .ico { height: 80px; width: 100px; float: left; margin-top: 15px; margin-left: 1.5rem; padding-right: 10px; /*para colocar una imagen encima de otra  debe tener un valor absolute*/ position: absolute; z-index: 1; }
 
-#galeria img { /*margin-left: 2rem; width: 95%;*/ width: 100%; height: 480px; }
+#galeria img { /*margin-left: 2rem; width: 95%;*/ width: 100%; height: 535px; }
 
 .titulos_2 { font-family: "Belgrano", serif, "Patua One", cursive, "Tenali Ramakrishna", sans-serif, "Titillium Web", sans-serif; /*font-family: Roboto;*/ /*color: #394C91;*/ text-align: center; font-weight: bold; padding-top: 20px; padding-bottom: 20px; font-size: 2rem; }
 
@@ -1347,4 +1347,22 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .centrar { padding-right: 15%; }
 
 #centro-boton { padding-right: 3%; margin-right: 50%; }
+
+#demo { height: 100%; position: relative; overflow: hidden; }
+
+.green { background-color: #6fb936; }
+
+.thumb { margin-bottom: 30px; }
+
+.page-top { margin-top: 85px; }
+
+img.zoom { width: 100%; height: 200px; border-radius: 5px; -o-object-fit: cover; object-fit: cover; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; }
+
+.transition { -webkit-transform: scale(1.2); transform: scale(1.2); }
+
+.modal-header { border-bottom: none; }
+
+.modal-title { color: #000; }
+
+.modal-footer { display: none; }
 /*# sourceMappingURL=estilos.css.map */
